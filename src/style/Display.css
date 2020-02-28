@@ -1,0 +1,108 @@
+.Display {
+    display: flex;
+    border: 1px solid black;
+    width: 300px;
+    height: 35px;
+    padding-right: 20px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    background-color: rgb(177, 255, 177);
+    font-size: large;
+    font-weight: bold;
+    overflow: hidden;
+  }
+  
+  .ScienceDisplay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 200px;
+    max-width: 200px;
+  }
+  
+  .Operations {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    padding-right: 20px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(177, 255, 177);
+    font-size: large;
+    font-weight: bold;
+    overflow: hidden;
+  }
+  
+  .Result {
+    display:flex;
+    flex-direction: column;
+    text-align: end;
+    margin-top: 10px;
+    border-top: 1px solid black;
+    width: 100px;
+  }
+  
+  .Arrows {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+  }
+  
+  .UpArrow {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+  }
+  
+  .UpArrow:hover {
+    color: gray;
+  }
+  
+  .UpArrow::selection {
+    visibility: hidden;
+  }
+  
+  .DownArrow {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    cursor: pointer;
+  }
+  
+  .DownArrow:hover {
+    color: gray;
+  }
+  
+  .DownArrow::selection {
+    visibility: hidden;
+  }
+  
+  .DisplayNegative {
+    color: red;
+  }
+  
+  .DisplaySelectionable {
+    cursor: pointer;
+    color: gray;
+    height: fit-content;
+    text-align: end;
+    width: fit-content;
+    padding: 2px;
+  }
+  
+  .DisplaySelectionable:hover {
+    border: 1px solid black;
+    padding: 1px;
+  }
